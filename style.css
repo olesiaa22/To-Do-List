@@ -34,6 +34,11 @@ body {
     display: flex;
     gap: 8px;
 
+
+}
+
+input {
+    text-align: center;
 }
 
 #input {
@@ -43,6 +48,8 @@ body {
     padding: 10px;
 
 }
+
+
 
 
 #add {
