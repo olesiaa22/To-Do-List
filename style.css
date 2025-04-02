@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("/1.png");
+}
+
+.container {
+    display: flex;
+    background-color: #c3baec;
+    flex-direction: column;
+    gap: 8px;
+    width: 80%;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.user-input {
+    display: flex;
+    gap: 8px;
+
+}
+
+#input {
+    border: none;
+    border-radius: 25px;
+    background-color: #f0beb9;
+    padding: 10px;
+
+}
+
+
+#add {
+    background-color: #f0a4be;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.tasks-container .task p {
+    background-color: #dfd6e7;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.edit {
+    width: 15px;
+    border: none;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+}
+
+@media (width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
