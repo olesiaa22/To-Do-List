@@ -102,6 +102,12 @@ input {
     background-color: transparent;
 }
 
+.tasks-container {
+    width: 600px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
 @media (width: 768px) {
     .container {
         flex-direction: column;
