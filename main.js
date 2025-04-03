@@ -12,11 +12,15 @@ function appendTask(text) {
   textField.textContent = text;
   const deleteButton = document.createElement("button");
   deleteButton.classList.add("delete");
-  deleteButton.textContent = "Del";
+  deleteButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
+  const editButton = document.createElement("button");
+  editButton.classList.add("edit");
+  editButton.innerHTML = '<i class="fa-solid fa-pencil"></i>';
 
   task.appendChild(checkbox);
   task.appendChild(textField);
   task.appendChild(deleteButton);
+  task.appendChild(editButton);
 
   taskContainer.append(task);
 }
